@@ -11,4 +11,7 @@ Full stack website made with HTML, CSS, Javascript, Mongo DB and various librari
 <p><h5>Mapbox</h5>To create interactive maps and visualize geographic data for websites and web applications</p>
 
 <h1>Download and Run Instructions</h1>
-<p><h5>Download</h5>https://github.com/Shraysanan/YelpCamp.git</p>
+<p><h5>Download</h5>https://github.com/rahulagrawal084/YelpCamp.git</p>
+<p><h5>Move current directory to project directory</h5>cd Yelpcamp</p>
+<p><h5>Install Dependencies</h5>npm install</p>
+<p><h5>Run App</h5>node app.js</p>
