@@ -11,7 +11,13 @@ Full stack website made with HTML, CSS, Javascript, Mongo DB and various librari
 <p><h5>Mapbox</h5>To create interactive maps and visualize geographic data for websites and web applications</p>
 
 <h1>Download and Run Instructions</h1>
-<p><h5>Download</h5>https://github.com/rahulagrawal084/YelpCamp.git</p>
-<p><h5>Move current directory to project directory</h5>cd Yelpcamp</p>
-<p><h5>Install Dependencies</h5>npm install</p>
-<p><h5>Run App</h5>node app.js</p>
+<p><h5>Download Project:</h5>https://github.com/rahulagrawal084/YelpCamp.git</p>
+<p><h5>Move current directory to project directory:</h5>cd Yelpcamp</p>
+<p><h5>Install Dependencies:</h5>npm install</p>
+<p><h5>Run App:</h5>node app.js</p>
+
+<h1>Application Functionality</h1>
+<p>Login/SignUp User.</p>
+<p>View all existing campgrounds and Create new campgrounds.</p>
+<p>Add Reviews/Comments on existing campgrounds.</p>
+<p>Only campground creator is able to update/delete existing reviews/comments and edit campgrounds.</p>
