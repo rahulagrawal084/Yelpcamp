@@ -3,30 +3,48 @@ YelpCamp is a full-stack web application that allows users to browse, create, an
 
 <h1>Key Features</h1>
 
-* <p><h5>User Authentication:</h5> Users can sign up, log in, and log out using Passport.js for authentication.</p>
-* <p><h5>Campground Management:</h5> Users can create, edit, and delete their own campgrounds.</p>
-* <p><h5>Review System:</h5> Users can leave reviews on campgrounds, and the owner of a campground can manage the reviews.</p>
-* <p><h5>Map Integration:</h5> Integration with Mapbox to display the locations of campgrounds on a map.</p>
-* <p><h5>Responsive Design:</h5> The application is fully responsive and works well on different screen sizes.</p>
+* <h5>User Authentication:</h5> Users can sign up, log in, and log out using Passport.js for authentication.
+* <h5>Campground Management:</h5> Users can create, edit, and delete their own campgrounds.
+* <h5>Review System:</h5> Users can leave reviews on campgrounds, and the owner of a campground can manage the reviews.
+* <h5>Map Integration:</h5> Integration with Mapbox to display the locations of campgrounds on a map.
+* <h5>Responsive Design:</h5> The application is fully responsive and works well on different screen sizes.
 
 
 <h1>Technologies Used:</h1>
-<p><h5>MongoDB:</h5> To store Users, Campgrounds, Reviews data</p>
-<p><h5>Express:</h5> To build a single page, multipage, and hybrid web application</p>
-<p><h5>JavaScript:</h5> To make websites more interactive and engaging</p>
-<p><h5>HTML/CSS:</h5> To craete and style websites</p>
-<p><h5>Cloudinary:</h5> To allow users to upload, store, manipulate, optimize, and deliver media files</p>
-<p><h5>Passport:</h5> To secure web application</p>
-<p><h5>Mapbox</h5>To create interactive maps and visualize geographic data for websites and web applications</p>
+
+<h5>1. Frontend:</h5>
+
+  * HTML/CSS: For structuring and styling the web pages.
+  * JavaScript: For adding interactivity to the user interface.
+  * Bootstrap: For responsive design and pre-styled components.
+    
+<h5>2. Backend:</h5>
+
+  * Node.js: JavaScript runtime used to build the server-side application.
+  * Express.js: Web framework for Node.js, used to handle routing, middleware, and server-side logic.
+  * MongoDB: NoSQL database used to store campground, user, and review data.
+  * Mongoose: Object Data Modeling (ODM) library for MongoDB, used to manage relationships and interact with the database.
+  * Passport.js: Middleware for authentication, supporting strategies like local authentication.
+    
+3. APIs and Services:
+
+Mapbox: Used for integrating maps to display campground locations.
+Cloudinary: Used for image storage and management, allowing users to upload and manage campground photos.
+Helmet.js: Middleware for securing HTTP headers.
+Sanitize HTML & Express-Mongo-Sanitize: Used to protect against XSS (Cross-Site Scripting) and other vulnerabilities.
+Environment Variables:
+
+.env File: The application requires an .env file to store sensitive information, such as API keys and secret tokens. This file should not be committed to version control (e.g., GitHub) to keep the information secure. Key variables that need to be added include:
+MAPBOX_TOKEN: The secret token for Mapbox API.
+CLOUDINARY_CLOUD_NAME, CLOUDINARY_KEY, CLOUDINARY_SECRET: Credentials for Cloudinary image storage.
+Any other sensitive information like session secrets, database URLs, etc.
+Additional Tools:
+
+EJS (Embedded JavaScript): Templating language used to generate HTML markup with JavaScript.
+Git & GitHub: Version control system used for tracking changes and collaboration.
 
 <h1>Download and Run Instructions</h1>
 <p><h5>Download Project:</h5>https://github.com/rahulagrawal084/YelpCamp.git</p>
 <p><h5>Move current directory to project directory:</h5>cd Yelpcamp</p>
 <p><h5>Install Dependencies:</h5>npm install</p>
 <p><h5>Run App:</h5>node app.js</p>
-
-<h1>Application Functionality</h1>
-<p>Login/SignUp User.</p>
-<p>View all existing campgrounds and Create new campgrounds.</p>
-<p>Add Reviews/Comments on existing campgrounds.</p>
-<p>Only campground creator is able to update/delete existing reviews/comments and edit campgrounds.</p>
