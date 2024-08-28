@@ -2,7 +2,7 @@
 YelpCamp is a full-stack web application that allows users to browse, create, and review campgrounds. The project is designed to help learners understand the fundamentals of web development, including front-end and back-end technologies. It's part of Colt Steele's "The Web Developer Bootcamp" course and serves as a comprehensive project to bring together various skills learned throughout the course.
 
 <h1>Key Features</h1>
-- <h5>User Authentication:</h5> Users can sign up, log in, and log out using Passport.js for authentication.
+- User Authentication: Users can sign up, log in, and log out using Passport.js for authentication.
 - <h5>Campground Management:</h5> Users can create, edit, and delete their own campgrounds.
 Review System: Users can leave reviews on campgrounds, and the owner of a campground can manage the reviews.
 Map Integration: Integration with Mapbox to display the locations of campgrounds on a map.
