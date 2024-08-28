@@ -3,27 +3,11 @@ YelpCamp is a full-stack web application that allows users to browse, create, an
 
 <h1>Key Features</h1>
 
-* User Authentication: Users can sign up, log in, and log out using Passport.js for authentication.
-* Campground Management: Users can create, edit, and delete their own campgrounds.
-+ Review System: Users can leave reviews on campgrounds, and the owner of a campground can manage the reviews.
-+ Map Integration: Integration with Mapbox to display the locations of campgrounds on a map.
-+ Responsive Design: The application is fully responsive and works well on different screen sizes.
-
-- Item 1
-- Item 2
-  - Subitem 2.1
-  - Subitem 2.2
-- Item 3
-
-* Item A
-* Item B
-  * Subitem B.1
-  * Subitem B.2
-
-+ Item X
-+ Item Y
-  + Subitem Y.1
-  + Subitem Y.2
+* <h5>User Authentication:</h5> Users can sign up, log in, and log out using Passport.js for authentication.
+* <h5>Campground Management:</h5> Users can create, edit, and delete their own campgrounds.
+* <h5>Review System:</h5> Users can leave reviews on campgrounds, and the owner of a campground can manage the reviews.
+* <h5>Map Integration:</h5> Integration with Mapbox to display the locations of campgrounds on a map.
+* <h5>Responsive Design:</h5> The application is fully responsive and works well on different screen sizes.
 
 
 <h1>Technologies Used:</h1>
