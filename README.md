@@ -8,6 +8,23 @@ Review System: Users can leave reviews on campgrounds, and the owner of a campgr
 Map Integration: Integration with Mapbox to display the locations of campgrounds on a map.
 Responsive Design: The application is fully responsive and works well on different screen sizes.
 
+- Item 1
+- Item 2
+  - Subitem 2.1
+  - Subitem 2.2
+- Item 3
+
+* Item A
+* Item B
+  * Subitem B.1
+  * Subitem B.2
+
++ Item X
++ Item Y
+  + Subitem Y.1
+  + Subitem Y.2
+
+
 <h1>Technologies Used:</h1>
 <p><h5>MongoDB:</h5> To store Users, Campgrounds, Reviews data</p>
 <p><h5>Express:</h5> To build a single page, multipage, and hybrid web application</p>
